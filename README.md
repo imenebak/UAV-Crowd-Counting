@@ -1,2 +1,64 @@
 # VisDrone_CC
-ECCV2020(Challenge-CrowdCounting)
+
+
+This is the Soft CSRNET version repo for ECCV2020(Challenge-CrowdCounting), which delivered an optimization of the parameters of the deep CNN "CSRNET" which made the density estimation in real time.
+
+## Datasets
+CC visdrone Dataset: [web_site](http://aiskyeye.com/)
+
+## Prerequisites
+We used Google Colab as a perncipal environment to train and test our models.
+
+## Ground Truth
+
+Please follow the `DensityVisDrone.ipynb ` to generate the ground truth.
+You may use `Visdrone2019_dotAnnotation.ipynb` to change the type of the boxes annotation in Visdrone 2019 or else.
+
+## Training Process
+
+Please follow the first part of `TrainVal.ipynb` to start training process.
+
+## Validation
+
+Follow the second part `TrainVal.ipynb` to try the validation. You can try to modify the notebook and see the output of each image.
+
+## Test
+
+Follow the `Test_model.ipynb` to test your model on 2020 ECCV CC. You can try to modify the notebook and see the output of each image.
+
+## References
+
+Code 
+
+```
+On this repos we based on the keras implementation of CSRNet by : https://github.com/Neerajj9/CSRNet-keras
+We're finalyzing also the Pytorch implementation : https://github.com/imenebak/CSRNet-pytorch
+```
+
+CSRNet paper.
+
+```
+@inproceedings{li2018csrnet,
+  title={CSRNet: Dilated convolutional neural networks for understanding the highly congested scenes},
+  author={Li, Yuhong and Zhang, Xiaofan and Chen, Deming},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1091--1100},
+  year={2018}
+}
+```
+ECCV2020 Challenge DroneCrowd.
+
+```
+@article{zhu2018vision,
+
+title={Vision meets drones: A challenge},
+author={Zhu, Pengfei and Wen, Longyin and Bian, Xiao and Ling, Haibin and Hu, Qinghua},
+journal={arXiv preprint arXiv:1804.07437},
+year={2018} }
+
+@article{zhu2020vision,
+title={Vision Meets Drones: Past, Present and Future},
+author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Hu, Qinghua and Ling, Haibin},
+journal={arXiv preprint arXiv:2001.06303},
+year={2020} }
+```
