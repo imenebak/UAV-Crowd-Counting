@@ -3,6 +3,8 @@
 
 This is the Soft CSRNET version repo for ECCV2020(Challenge-CrowdCounting), which delivered an optimization of the parameters of the deep CNN "CSRNET" which made the density estimation in real time.
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/34316110/94086046-b434c100-fe01-11ea-9187-c588803778b7.gif)
+
 ## Datasets
 CC visdrone Dataset: [web_site](http://aiskyeye.com/)
 
