@@ -14,7 +14,7 @@ We used Google Colab as a perncipal environment to train and test our models.
 ## Ground Truth
 
 Please follow the `DensityVisDrone.ipynb ` to generate the ground truth.
-You may use `Visdrone2019_dotAnnotation.ipynb` to change the type of the boxes annotation in Visdrone 2019 or else.
+You may use `Visdrone2019_dotAnnotation.ipynb` to change the type of the annotation in Visdrone VID 2019 dataset or else.
 
 ## Training Process
 
