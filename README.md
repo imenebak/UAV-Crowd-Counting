@@ -36,7 +36,20 @@ Code
 On this repos we based on the keras implementation of CSRNet by : https://github.com/Neerajj9/CSRNet-keras
 We're finalyzing also the Pytorch implementation : https://github.com/imenebak/CSRNet-pytorch
 ```
+SOFT-CSRNet paper
 
+```
+@INPROCEEDINGS{9378749,
+  author={Bakour, Imene and Bouchali, Hadia Nesma and Allali, Sarah and Lacheheb, Hadjer},
+  booktitle={2020 2nd International Workshop on Human-Centric Smart Environments for Health and Well-being (IHSH)}, 
+  title={Soft-CSRNet: Real-time Dilated Convolutional Neural Networks for Crowd Counting with Drones}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={28-33},
+  doi={10.1109/IHSH51661.2021.9378749}}
+  
+  ```
 CSRNet paper.
 
 ```
